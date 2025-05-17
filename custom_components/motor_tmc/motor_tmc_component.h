@@ -6,7 +6,7 @@
 namespace esphome {
 namespace motor_tmc_component {
 
-class MotorTmcComponent : public uart::UARTDevice, public Component {
+class MotorTmcComponent : /*public uart::UARTDevice,*/ public Component {
   public:
     void setup() override;
     void loop() override;

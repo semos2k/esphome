@@ -7,7 +7,7 @@ namespace motor_tmc_component {
 static const char *TAG = "motor_tmc_component.component";
 
 void MotorTmcComponent::setup() {
-
+    ESP_LOGCONFIG(TAG, "Init Setup");
 }
 
 void MotorTmcComponent::loop() {
